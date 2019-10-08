@@ -1,0 +1,150 @@
+/*body {
+  font-family: 'Montserrat', sans-serif;
+}*/
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 800px) {
+  p, h2 {
+    font-size: 14px;
+  }
+
+  #smart-container {
+    padding: 80px 10px !important;
+  }
+
+  .appliance-home, .app-present {
+    padding: 25px 20px !important;
+    margin: 15px auto !important;
+  }
+
+}
+
+button:focus, input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn-app {
+  background-color: #0082A3 !important;
+  border-color: #0082A3 !important;
+  margin: 15px;
+
+}
+
+p {
+  margin-bottom: 4px !important;
+}
+
+h2 {
+  font-size: 20px !important;
+  padding-bottom: 15px;
+  font-weight: 500; 
+}
+
+.app-title {
+  font-size: 28px;
+  color: #00A3CC;
+  padding-bottom: 25px;
+  font-weight: 800;
+}
+
+#smart-main {
+
+}
+
+#smart-container {
+  padding: 100px 50px;
+}
+
+.appliance-home {
+  background-color: #F2FCFC;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  margin: 0 30px;
+}
+
+.appliance-home h1 {
+  font-size: 40px;
+  color: #00A3CC;
+  padding-bottom: 35px;
+  font-weight: 800;
+}
+
+.nav-link {
+  color: #00A3CC;
+}
+
+.app-present {
+  background-color: #F2FCFC;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  margin: 20px 30px;
+}
+
+.week-hours {
+
+}
+
+#footer h1 {
+  font-size: 12px;
+  color: #0082A3
+}
+
+#footer {
+/*  h1 {
+    font-size: 18px;
+    color: #0082A3
+  }*/
+}
+
+
+/*.App {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  width: 100%;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 42px;
+}
+
+.passwords {
+  list-style: none;
+  padding: 0;
+  font-size: 32px;
+  margin-bottom: 2em;
+}
+
+.more {
+  font-size: 32px;
+  font-family: "Courier New", monospace;
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 10px 25px;
+}
+.more:hover {
+  background-color: #FDD836;
+}
+.more:active {
+  background-color: #FFEFA9;
+}*/
+
