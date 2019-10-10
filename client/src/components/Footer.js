@@ -15,7 +15,7 @@ var style = {
 function Footer() {
     return (
         <div id="footer" style={style}>
-            <h1>All rights reserved. Smart Appliance Fix</h1>
+            <h1>Copyright © 2015. All rights reserved. Smart Appliance Fix</h1>
         </div>
     )
 }

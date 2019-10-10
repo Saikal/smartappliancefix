@@ -32,7 +32,13 @@
     padding: 25px 20px !important;
     margin: 15px auto !important;
   }
-
+  .week-hours p {
+    font-size: 10px;
+  }
+  #contact-app h2 {
+    padding-top: 35px;
+    padding-bottom: 5px;
+  }
 }
 
 button:focus, input:focus {
@@ -64,6 +70,10 @@ h2 {
   font-weight: 800;
 }
 
+.appliance-items-center {
+  align-items: center;
+}
+
 #smart-main {
 
 }
@@ -81,7 +91,7 @@ h2 {
 }
 
 .appliance-home h1 {
-  font-size: 40px;
+  font-size: 42px;
   color: #00A3CC;
   padding-bottom: 35px;
   font-weight: 800;
@@ -101,6 +111,15 @@ h2 {
 
 .week-hours {
 
+}
+
+#contact-app h2 {
+  color: #0082A3;
+}
+
+#gallery-app a {
+/*  margin-top: 20px;
+*/  color: #ff8c00;
 }
 
 #footer h1 {

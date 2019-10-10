@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image'
 function Gallery () {
   return (
     <div>
-      <Container className="app-present">
+      <Container id="gallery-app" className="app-present">
         <h1 className='app-title'>Gallery</h1>
         <h2>Dishwashers, Dryers, Freezers, Microwaves, Oven, Refrigerators, etc.</h2>
         <p>Smart Appliance Repairs, Home Appliance Services, Appliance Services - Los Angeles, CA</p><br/>
@@ -24,6 +24,9 @@ function Gallery () {
             <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv6Ed0ta9HiWZ1YaRY9GG_5FgrWLSBSbhCbihi2ogwBDPj7EAXIg" rounded />
           </Col>
         </Row>
+        <div>
+          <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Click here to see our Yelp Gallery</a>
+        </div>
       </Container>
     </div>
   )

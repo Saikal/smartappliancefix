@@ -15,7 +15,7 @@ function Home () {
       <div className="appliance-home">
         <h1>Smart Appliance Fix</h1>
         <h2>Appliance Repair Service in Los Angeles</h2>
-        <Button className="btn-app" variant="primary" size="lg" >
+        <Button className="btn-app" variant="primary" size="lg" href="tel:7737820255">
           Call Us Today
         </Button>
         <p>Opening at 7:00 am</p>
