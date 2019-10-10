@@ -12,7 +12,7 @@ function Gallery () {
       <Container id="gallery-app" className="app-present">
         <h1 className='app-title'>Gallery</h1>
         <h2>Dishwashers, Dryers, Freezers, Microwaves, Oven, Refrigerators, etc.</h2>
-        <p>Smart Appliance Repairs, Home Appliance Services, Appliance Services - Los Angeles, CA</p><br/>
+        <p>Appliance Fix, Home Appliance Services, Other Appliance Repair - Los Angeles, CA</p><br/>
         <Row>
 
 
