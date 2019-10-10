@@ -11,8 +11,8 @@ function Gallery () {
     <div>
       <Container id="gallery-app" className="app-present">
         <h1 className='app-title'>Gallery</h1>
-        <h2>Dishwashers, Dryers, Freezers, Microwaves, Oven, Refrigerators, etc.</h2>
-        <p>Appliance Fix, Home Appliance Services, Other Appliance Repair - Los Angeles, CA</p><br/>
+        <h2>Smart Appliance Repair, Home Appliance Services, Other Appliance Services, All Brand Services</h2>
+        <p>We fix all major home appliances: washers, dryers, cooktops, ovens, stoves, refrigerators, freezers, vine coolers, dishwashers, trush compactors, garbage disposals, microwaves, ice machines and other.<br/>Los Angeles, CA</p><br/>
         <Row>
 
 
