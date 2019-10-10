@@ -24,7 +24,7 @@ class Services extends Component {
               <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media1.fl.yelpcdn.com/bphoto/7AKNiRYr2-C2f3YrcMWAiA/o.jpg" rounded />
             </Col>
           </Row>
-          <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Click here to see<br/>Smart Appliance Fix<br/>in Yelp</a>
+          <a href="https://www.yelp.com/biz/baisel-appliance-repair-los-angeles" target="_blank">Click here to see<br/>Smart Appliance Fix<br/>in Yelp</a>
         </Container>
       </div>
     )
