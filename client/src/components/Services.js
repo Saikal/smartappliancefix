@@ -9,21 +9,22 @@ class Services extends Component {
   render() {
     return (
       <div>
-        <Container className="app-present">
+        <Container id="service-app" className="app-present">
           <h1 className="app-title">Services</h1>
           <h2>Appliances we repair are wide range of Dryers, Dishwashers, <br/>Freezers, Microwave, Oven, Refrigerator, etc.</h2>
           <p>Smart Appliance Repairs, Home Appliance Services, Appliance Services - Los Angeles, CA</p><br/>
           <Row>
             <Col lg={true}>
-              <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media2.fl.yelpcdn.com/bphoto/4OkMtx6FUCx4v6vv8E8HKw/o.jpg" rounded />
+              <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://lh3.googleusercontent.com/h6wY2yDxi8ccoe-LzXhE2aAB4pbBMRA4mzwwGk-kRU-QrfEbczHqspNKl_NjAo51VZShuZcQqD7WuvNXRzi-wv-BSN1XTIGMb-Lgq--8yG33nD-BSGmHdQvmEJi3LD8U8VPmMGUAkGroirKES6TnuIE6fXhypj6fayot1VdJwm-iYEl0ykTrhXnWchmATX5lb4cMDSvyw_3naWK_F2vrR8mrhrSB1r3uc3n9SowbySYQz-9HLRQ9u9CKDKUZdFqgZLAem7uH2U9_8pCtWSirPAa6e2Lwyx9wYI30_GmP2AFi5pqp8-M0rtHblpK14fb_o84jpPKiChzxfJiZfbzQDBIeaF7rlE4t4acUmUGs_UZNkbEmHX3BsfKpuerQbhKSuhUB77nKRi4pzpN27XdbHrauq9v-Hl7TRgf51HILtr18tpAhBe1Q6aHNKjm0yY3-MUlLrRawuUn2pJdhH6dL7j69Krxsn0L3fR9S6s8NRYaF44W46eR3rafyzcAGWHiGb2y4ctETfhgnZyW8fU2hswclSuScgu6R1HhRjfmWUPIifCMTxT7MVhjQoSoecmTmfUjm1si5ktcnKFleoaZSlK7aCARxj_kvBfrYl1tmL3RU2fvMJbFkggOgcLVeJ4lDRZ6bSfiGmcmRP6IHMT20m_MQN0lbnX2QhuwUarBdYH32ZjdsyaZtAoe48CuStF7lcxPFvXd9mshGzsdlqEjkuioOaT91lvec5wpp21fTM2AlWC0=w1076-h908-no" rounded />
+            </Col>
+            <Col lg={true}>
+              <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://lh3.googleusercontent.com/XCLeZ7JsvF_K2VMJ2WbWlzFfgEYjp4OilmjokX-ZOAHKlA9HYbjAm_25FmrFpgB8oyw5-dIOPRFzhqbCv7mtVVrUnzI9e-3bkVK37vyxsw8Y7eXxJM4W0JR2M-rIYuPWsyj8nNaPoCzTxMHnGk03qhivUTm98iTxbCKkdcC3sVyt1R7PhpZ9samcWSt9acL7yuRYdnnt9QTOv7eLkAzQp_fTYOrUcN3RUEz7fhJ-6l9vtyekPxkze8oJKZ9jp10eVzjOK0WTjTUL_NLhvR_lpUnmu2KyYUe-kJN5T2PmagBzKVYswuag1DG7AoYtVLWZIiuNFHcuXB1wXLdKfNBcMlsrrPR6KMDk0TZZGtfWSuFj7hOsbhV_QRW24WtLn_CGHZVzq9WjOlMCJdtRYcVrEOWFsBp7enH4d9rXfV0Mr7E35XU7PzpKrIVTmDWGMSo_V7Pt24tyiaimmbHe6HKuDBO5qe_A6MZ9pg4sZozc24kQplTfbEnlX9g9-8aTL_zxetGT1lCWhM0UNippX83n9JQD-R-YMMgAIiBxBlSVollyFtlaZvnkB0glsn5Y7MVkUCr56IgZ2-LHydahIiVSpzDarylJhL74dqsgNsei1ayrCtRCzp2VBu7Agof7ec8m81ejF5zXaglKYGOEDaMKxbxVy-FMw2HLO1KB8DMR8XO_sFSTh3a4LULh4jdORgi6Y_lw8aeP7blP4wK082HMyYVhqllRksQWDhTm3nxReKM6hJw=w276-h286-no" rounded />
             </Col>
             <Col lg={true}>
               <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media1.fl.yelpcdn.com/bphoto/7AKNiRYr2-C2f3YrcMWAiA/o.jpg" rounded />
             </Col>
-            <Col lg={true}>
-              <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://lh3.googleusercontent.com/PvV4hqC_F-KPQ3155i3MfP7t-KK4HXZMwV1eD4ENgwJdiM6p9IMPZcM2fH3jSRtbBeWPqCgA0nIU2E-_7NYJv9VGiBPjPluxm93ka1womQBYXgA8-tsK888AhgohmLSzwdbZ5P_14yc-T7eOlAXuX2WUIbHkuSgIYr3XqP8Gc3iKcyr82Z-rz6TQ5HEiXQjTbN8MMPSBE-nCbtd7Hc7iNX2dOqLx0AXHVpJIwBIe0CGjgGQ77FEac6xt9-ddwPKp6fDJEXXtQVz1o44MV2vLhRKU6XSXu5E9648jGDx7WPgmvoyvKNLCPlNLDtlhgMDj1rb6vDearsGX-O6WxWyJzFfWafd2d2-Ir6Zi40NDV1EQVqYKvrrvQpKNp7gZZpfRl3m9SlgBtSjOZC1atp0p5u7zTecK159D2wwMQuNLjsa__mPHy2NtL7xwheqUnmY6g0ZHHVocA7ljHKrwuePnXyH_b401WcL0yzOER0hAyWPZ4pLWFtRwCcxKJX4EtOAPP4LKXJmzJd8OzsUvqfxNjFa-E7GR4SyvAOxyqAHG3cYrYVPQRyFiUG3J7hFWseEoWeb1Nmnro2JFyvPeo6QV8BI566pKDvdT3Hq5XkOEkAfkRVVc3lJhgs7x1C296QVWTNiyzupg_raOhFb-tH35ony91_Ih1otYj29rzKlqPC75SjP1MM3705YqTu64kv-2Mv_ZOeTKdOcHJW8051otiaHOCEVOfpffhgbaeAkuKlQKRpc=w210-h324-no" rounded />
-            </Col>
           </Row>
+          <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Click here to see<br/>Smart Appliance Fix<br/>in Yelp</a>
         </Container>
       </div>
     )

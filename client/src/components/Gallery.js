@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
-
+import Carousel from 'react-bootstrap/Carousel'
 
 function Gallery () {
   return (
@@ -14,19 +14,57 @@ function Gallery () {
         <h2>Dishwashers, Dryers, Freezers, Microwaves, Oven, Refrigerators, etc.</h2>
         <p>Smart Appliance Repairs, Home Appliance Services, Appliance Services - Los Angeles, CA</p><br/>
         <Row>
-          <Col lg={true}>
-            <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://assets.searshomeservices.com/images/blog/maintenace-kitchen-600x450.jpg" rounded />
-          </Col>
-          <Col lg={true}>
-            <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://res.cloudinary.com/dmuzcwg9u/image/upload/w_250,c_fit/fa2/unknown/26850" rounded />
-          </Col>
-          <Col lg={true}>
-            <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv6Ed0ta9HiWZ1YaRY9GG_5FgrWLSBSbhCbihi2ogwBDPj7EAXIg" rounded />
-          </Col>
+
+
+
+            <Col lg={true}>
+              <Carousel>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media4.fl.yelpcdn.com/bphoto/uHo8W7usbtvo1UVHfsid4Q/o.jpg" rounded />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media1.fl.yelpcdn.com/bphoto/XlJW3gh-rDqkNVaHRCIQNA/o.jpg" rounded />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media1.fl.yelpcdn.com/bphoto/pGDJ08HWyC0gLJzukEPUQw/o.jpg" rounded />
+                </Carousel.Item>
+              </Carousel>
+              <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Check out our Yelp Gallery</a>
+
+            </Col>
+
+            <Col lg={true}>
+              <Carousel>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media2.fl.yelpcdn.com/bphoto/z3cgUB24GUQraHnoTfqQHA/o.jpg" rounded />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media1.fl.yelpcdn.com/bphoto/cjODU-3gAceYsJ6RnKT2NQ/o.jpg" rounded />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media3.fl.yelpcdn.com/bphoto/6zgVpQEa8ACtN4pgImn0mQ/o.jpg" rounded />
+                </Carousel.Item>
+              </Carousel>
+              <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Click here to see more in Yelp</a>
+            </Col>
+
+            <Col lg={true}>
+              <Carousel>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media2.fl.yelpcdn.com/bphoto/1jlRFPFTyWoIrkQqjJceOw/o.jpg" rounded />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media1.fl.yelpcdn.com/bphoto/DKtyxOYp2Ylsx0gro9XKvA/o.jpg" rounded />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image style={{'width': '90%', 'height': '300px', 'margin':'10px'}} src="https://s3-media3.fl.yelpcdn.com/bphoto/J7rOyPzZ9uJA3kqHa-0xeA/o.jpg" rounded />
+                </Carousel.Item>
+              </Carousel>
+              <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Review our Yelp Gallery</a>
+            </Col>
+
+
         </Row>
-        <div>
-          <a href="https://www.yelp.com/biz_photos/baisel-appliance-repair-los-angeles?start=0" target="_blank">Click here to see our Yelp Gallery</a>
-        </div>
       </Container>
     </div>
   )
