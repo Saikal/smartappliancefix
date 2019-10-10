@@ -70,7 +70,7 @@ p {
 
 h2 {
   font-size: 20px !important;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   font-weight: 500; 
 }
 
@@ -109,7 +109,7 @@ h2 {
 }
 
 .appliance-home h2 {
-  margin: 35px auto -5px;
+  margin: 35px auto 0;
   font-size: 18px !important;
 }
 
