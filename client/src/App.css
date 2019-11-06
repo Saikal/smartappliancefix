@@ -113,6 +113,10 @@ h2 {
   font-size: 18px !important;
 }
 
+.appliance-home p {
+  font-weight: 600;
+}
+
 .nav-link {
   color: #00A3CC;
 }
