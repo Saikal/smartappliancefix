@@ -14,12 +14,12 @@ function About () {
           <h2>Smart Appliance Fix</h2>
           <br/>
           <p>Established in 2015.</p>
-          <p>This home Appliance Repair business started in another country in 2010. Since 2015, it has been continuing in Los Angeles, CA</p><br/>
+          <p>This home Appliance Repair business started in another country in 2010. Since 2015, it has been continuing in Los Angeles and Orange County, CA</p><br/>
           <p>Smart Appliance Repair is an owner operated - one of only a handful of appliance repair and installation companies around that can claim that. We have managed to build a good reputation over the years by sticking to our principles, having a solid work ethic, and treating people with respect.</p><br/>
           <p>There is also the fact that we're part of the local economy and live in neighborhoods we work. It's important you know that as it's true that you get better service from a locally run business.</p>
-          <p>Our service areas are Los Angeles County and Orange County: LA, Anaheim, Irvine, Santa Ana, Orange, Laguna Beach,  Newport Beach, Huntington Beach, Garden Grove, Laguna Hills and other.</p><br/>
+          <p>Our service area is Orange County: Irvine, Anaheim, Santa Ana, Orange, Laguna Beach,  Newport Beach, Huntington Beach, Garden Grove, Laguna Hills and other.</p><br/>
           <p>Business Owner - Aman Baisalov</p><br/>
-          <p>Smart Appliance Repair - Los Angeles, CA</p><br/>
+          <p>Smart Appliance Repair - Orange County, CA</p><br/>
         </Col>
         <Col>
           <Carousel>
